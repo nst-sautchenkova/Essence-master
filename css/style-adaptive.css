@@ -1,0 +1,203 @@
+@media screen and (min-width: 1350px) {
+}
+@media screen and (max-width: 1680px) {
+	#about .about {margin-top: 45px;}
+	.width-1680{width: calc(100% - 150px);}
+	.width-1180{width: calc(100% - 250px);}
+	#social-networks{right:20px;}
+	
+	#slider-header .director{width:370px;}
+	#slider-header .swiper-slide .txt {width: calc(100% - 470px); position: absolute; left: auto; right: 80px; top: 0; height: 100%; padding: 210px 0;}
+	#slider-header {height: 720px;}
+	#slider-header .parallax-bg-2{left:400px;}
+	#slider-header h2 {font-size: 33px; line-height: 46px; margin:30px 0}
+	#slider-header .bottom{bottom:130px;}
+	
+	.padding-top-325 {padding-top: 150px;}
+	#about .about .top .img-block{width:600px;}
+	#about .about .top .right {width: calc(100% - 600px);padding-left: 80px;}
+	#about {padding-bottom: 50px;}
+	#about .about .bottom {padding-top: 30px;}
+	#about .about .bottom h4{margin-bottom:10px}
+	#about .about .bottom p {margin: 15px 0;}
+
+	#projects {padding-bottom: 165px;}
+	#projects #slider-projects {width: 100%;max-width: 1320px;margin-top: 20px;}
+	#projects .title{position:relative}
+	#projects .title h3{position: absolute; width: 100%; top: 58px;}
+	#projects h2 {position: relative;top: -20px;}
+	
+	#services h3 {z-index: 3;}
+	
+	#services .grid .item .txt{padding:50px 40px}
+	#services .grid .item h4 {font-size: 30px; line-height: 34px;}
+	#services .grid .item p {font-size: 15px; line-height: 19px;}
+	.price-block-item {width: calc((100% - 60px) / 4); height: 460px;}
+	
+	#price .title h3, #process .title h3, #team .title h3, #about .title h3{top: 50%;position: absolute;width: 100%;}
+	#price .title h2, #process .title h2, #team .title h2, #about .title h2 {position: relative; top: 0;}
+	
+	#price {padding: 60px 0 100px;}
+	#team #slider-team {margin-top: -30px;}
+	
+	#team #slider-team .swiper-slide .item .txt .bottom {padding: 0 25px 0 20px;}
+	#team #slider-team .swiper-slide .item .txt .title {font-size: 21px; line-height: 21px; margin-bottom: 10px;}
+}
+@media screen and (max-width: 1320px) {
+	#projects #slider-projects{max-width:100%;}	
+}
+@media screen and (max-width: 1240px) {
+	header .top {padding: 40px 0;}
+	#slider-header .director {width: 330px;}
+	#slider-header .parallax-bg-2 {left: 340px; top: 30px; width: 200px; display:none}
+	#slider-header .swiper-slide .txt {width: calc(100% - 430px); padding: 0;}
+	#slider-header .swiper-slide .txt .transform {width: 100%; position: relative; transform: none; left: 0; top: 40px;}
+	#slider-header .bottom {bottom: 170px;}
+	#slider-header {height: 565px;}
+	#slider-header h2 {font-size: 26px;line-height: 38px;margin: 10px 0;margin-bottom: 0;}
+	.quotes{width:25px;}
+	#slider-header .bottom h3 {font-size: 14px; line-height: 14px;}
+	#slider-header .bottom span {font-size: 11px; line-height: 11px; margin-top: 10px;}
+	#social-networks h4{display:none}
+	#slider-header .parallax-bg{bottom:50px;}
+	.arrow-s{display:none}
+	#slider-projects .swiper-container { width: 100%; margin: 0; float: none;}
+	
+	#services .grid .item {width: 50%;overflow: hidden;}
+	#services .grid .item .img-block {position: absolute; width: 100%; height:100%;  z-index: 1;}
+	#services .grid .item .txt {padding: 50px 40px; position: relative;  z-index: 3;}
+	#services .grid .item:before{z-index:2;}
+	#services .grid{display: flex; flex-wrap: wrap; align-content: flex-start;}
+	#services .grid .item .img-block img {/* width: 100%; */position: absolute;top: 50%;left: 50%;-moz-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);-webkit-transform: translate(-50%,-50%);-o-transform: translate(-50%,-50%);transform: translate(-50%,-50%);/* height: 100%; */min-width: 100%;min-height: 100%;}
+	
+	.price-block-item {width: calc((100% - 40px) / 2); height: 365px;  margin-bottom: 20px;}
+	.price-block-item .btn-a{bottom:0;}
+	
+	#slider-process .item .number span {font-size: 372px; line-height: 337px;}
+	#slider-process .item .number{margin-bottom:0}
+	#price {padding: 35px 0 30px;}
+	#slider-process {padding-bottom: 30px;}
+	#copyrighted{padding-right:0}
+	.line{width:90%}
+
+#projects #slider-projects{
+    margin-top: -40px;
+}	
+}
+@media screen and (max-width: 1150px) {
+	#about .about .top .img-block {width: 500px;}
+	#about .about .top .right {width: calc(100% - 500px);  padding-left: 50px;}
+	#about .about .bottom .left, #about .about .bottom .right{width:100%; padding:0}
+}
+@media screen and (max-width: 1120px) {
+	.menu-open{background:url(../images/menu.png) no-repeat center;width:30px;height:30px;display:block;position: relative;z-index: 999999;}
+	.menu-close{background:url(../images/menu-close.png) no-repeat center;-webkit-filter: invert(100%);filter: invert(100%);width:30px;height:30px;display:block;position: absolute;z-index: 999999;top: 30px;right: 30px;}
+	header #menu .menu {position: fixed;top: -100%;z-index: 99999999;background: #fff;width: 100%;height: 100%;left: 0;-webkit-transition: all 0.2s ease-out;-moz-transition: all 0.2s ease-out;-o-transition: all 0.2s ease-out;transition: all 0.2s ease-out;}
+	header #menu ul li a{color:#29303a}
+	header #menu ul li{float: none; margin: 20px 0; text-align: center;}
+	header #menu ul {position: absolute;  top: 50%; left: 50%; -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%);  transform: translate(-50%,-50%);}
+}
+@media screen and (max-width: 980px) {
+	.width-1180 {width: calc(100% - 100px);}
+	.width-1680 {width: calc(100% - 50px);}
+	
+	#social-networks li {margin: 0 20px; display: block;}
+	#social-networks ul {padding: 5px 0; display: flex; justify-content: center;}
+	#social-networks {right: 0;  bottom: -135px; width: 100%;  text-align: center;}
+	.remodal-wrapper{padding:0;}
+	.remodal{height:100%}
+	form {padding: 30px; position: absolute; top: 50%; left: 50%;  -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -webkit-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); width: 100%;}
+}
+
+@media screen and (max-width: 830px) {
+	#slider-header .director{display:none}
+	#slider-header .swiper-slide .txt {width: 100%; right:0; padding:40px;}
+	#slider-header .swiper-slide .txt .transform{top:0}
+	#slider-header .swiper-slide .txt .transform:after{content:''; display:block; clear:both}
+	#slider-header .bottom {bottom: 0; position: relative; text-align: right; margin-top: 20px;}
+	#slider-header .bottom h3 {text-align: right;}
+	#slider-header .swiper-slide .txt{position:relative}
+	#slider-header {height: auto;}
+	#slider-header .swiper-button-next, #slider-header .swiper-button-prev{display:none;}
+	.scroll-btn{bottom:10px;}
+	
+	#about .about {margin-top: 20px;}
+	#about .about .top{display:flex}
+	#about .about .top .img-block {width: 400px;}
+	#about .about .top .right {width: calc(100% - 400px); padding-left: 40px;}
+	#about .about .img-block img {max-width: 100%;  height: 100%;  position: absolute;  top: 50%;  left: 50%;  -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%);  -webkit-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);}
+	
+	#projects #slider-projects .swiper-slide .item .txt h4 {font-size: 23px;line-height: 28px;margin-bottom: 10px;font-family: 'yeseva_oneregular';}
+	#projects #slider-projects .swiper-slide .item .txt p {font-size: 15px; line-height: 19px;}
+	
+	#services .grid .item h4 {font-size: 28px; line-height: 29px;}
+	#slider-process .item .number span {font-size: 300px; line-height: 300px;}
+	#slider-process .item .txt h4 {font-size: 22px; text-align: center; line-height: 22px; margin-bottom: 15px;}
+	#slider-process .item .txt p {font-size: 15px; line-height: 18px;}
+	#slider-process .swiper-container {width: 90%;}
+	#projects {padding-bottom: 100px;}
+}
+@media screen and (max-width: 750px) {
+	#about .about .top {display: block;}
+	#about .about .top .img-block img{width:100%;height: auto;}
+	#about .about .top .img-block {width: 100%;float: none;height: 200px;overflow: hidden;}
+	#about .about .top .right {width: 100%; padding-left: 0; margin-top:20px}
+	#about .about .top li {width: 50%; float: left;}
+	h2 {font-size: 115px; line-height: 157px;}
+	.scroll-btn{display:none}
+}
+.m{display:none;}
+@media screen and (max-width: 590px) {
+	header .top {padding: 30px 0;}
+	#slider-header .swiper-slide .txt{top:-25px}
+	.padding-top-325 {padding-top: 130px;}
+	#about .about {margin-top: 0;}
+	.revealator-slideup, .revealator-slideright{ transform: none;  opacity: 1;}
+	.price-block-item {width: 100%;}
+	#team .title h3{margin-top: -15px;}
+	#team .title h3 span{display:block}
+	#slider-process .item .btn-a{width:90%}
+	.d{display:none;}
+	.m{display:block}
+	h2 {font-size: 100px; line-height: 157px;}
+	#price {padding: 0;}
+	footer {padding: 20px 0;}
+	footer .width-1180 {width: calc(100% - 30px);}
+	footer .logo {width: 150px;}
+	#copyrighted p{line-height:19px;}
+	#about .about .top li{width:100%; float:none}
+	#about .about .top li p br{display:none}
+	#about .about .top li p {color: #262626; line-height: 16px; width: calc(100% - 35px); padding-left: 15px; position: absolute; top: 50%; transform: translate(0,-50%); left: 35px;}
+	#team #slider-team .swiper-slide .item .txt span{font-size:10px}
+	#slider-header h2{max-height:inherit}
+	#services .grid .item{width:100%}
+	
+	#slider-header h2 {max-height: inherit; display: block; font-size: 19px; line-height: 24px;}
+	.price-block-item figure .txt p br{display:none}
+	
+	.price-block-item figure .txt .bottom-block {position: relative; margin-top: 20px; bottom: 0; padding: 0; pointer-events: initial;}
+	.price-block-item figure .txt .bottom-block .more{margin-bottom:10px;}
+	.price-block-item{height:auto}
+	.price-block-item .btn-a {bottom: 0; position: relative; width: 100%; display: block;}
+	.logo-loader span {font-size: 70px;}
+}
+@media screen and (max-width: 450px) {
+	h2 {font-size: 77px; line-height: 149px;}
+	.width-1180 {width: calc(100% - 30px);}
+	.width-1680 {width: calc(100% - 10px);}
+	footer .logo{display:none}
+	#copyrighted{float:none; width:100%;}
+	#copyrighted p{text-align:center}
+	
+}
+
+@media screen and (max-width: 350px) {
+	h2{display:none}
+	.title h3{position: relative !important;line-height: 30px;top: 0 !important;margin-bottom: 20px;margin-top: 20px;}
+	.padding-top-325 {padding-top: 155px;}
+	#slider-header .swiper-slide .txt {top: -40px;}
+	#projects {padding-bottom: 120px;}
+	#services .grid {margin-top: 25px;}
+	#price, #team{padding-top:25px}
+	#team #slider-team{margin-top:0}
+}

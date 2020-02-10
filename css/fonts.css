@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yzhkqa');
+  src:  url('../fonts/icomoon.eot?yzhkqa#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yzhkqa') format('truetype'),
+    url('../fonts/icomoon.woff?yzhkqa') format('woff'),
+    url('../fonts/icomoon.svg?yzhkqa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-essence-logo:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-arrow:before {
+  content: "\e901";
+  color: #777c83;
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-behance:before {
+  content: "\eaa8";
+}
+
+
+@font-face {
+    font-family: 'yeseva_oneregular';
+    src: url('../fonts/yesevaone-regular-webfont.eot');
+    src: url('../fonts/yesevaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/yesevaone-regular-webfont.woff2') format('woff2'),
+         url('../fonts/yesevaone-regular-webfont.woff') format('woff'),
+         url('../fonts/yesevaone-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GothamProBold";
+    src: url("../fonts/GothamProBold.eot");
+    src: url("../fonts/GothamProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBold.woff") format("woff"),
+    url("../fonts/GothamProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GothamProRegular";
+    src: url("../fonts/GothamProRegular.eot");
+    src: url("../fonts/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProRegular.woff") format("woff"),
+    url("../fonts/GothamProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamProBlack";
+    src: url("../fonts/GothamProBlack.eot");
+    src: url("../fonts/GothamProBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProBlack.woff") format("woff"),
+    url("../fonts/GothamProBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'source_code_proregular';
+    src: url('../fonts/sourcecodepro-regular-webfont.eot');
+    src: url('../fonts/sourcecodepro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcecodepro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcecodepro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcecodepro-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
