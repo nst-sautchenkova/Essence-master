@@ -8,6 +8,14 @@ jQuery(document).ready(function(){
     });
 });
 
+jQuery(document).ready(function(){
+    $("header #menu ul li a").on("click", function (event) {
+        event.preventDefault();
+        var idt  = $(this).attr('href'),
+            topt = $(idt).offset().top;
+        $('body,html').animate({scrollTop: topt - 60}, 800);
+    });
+});
 
 //loader
 jQuery(document).ready(function(){
@@ -79,4 +87,6 @@ $(document).scroll(function () {
 		}
 	});
 });
+
+
 
